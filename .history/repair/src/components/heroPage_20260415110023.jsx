@@ -1,0 +1,61 @@
+import Image from 'next/image';
+
+export default function HeroPage() {
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 flex items-center justify-center px-4 py-12">
+      <div className="max-w-7xl mx-auto w-full">
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+          
+          {/* Left Section - Content */}
+          <div className="flex-1 text-center lg:text-left space-y-6">
+            {/* Tagline */}
+            <div className="inline-block px-4 py-1.5 rounded-full bg-indigo-50 text-indigo-600 text-sm font-semibold tracking-wide">
+              ✨ Welcome to the Future
+            </div>
+            
+            {/* Heading */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
+              Build Amazing Digital
+              <span className="text-indigo-600 block"> Experiences Faster</span>
+            </h1>
+            
+            {/* Paragraph */}
+            <p className="text-lg text-gray-600 max-w-xl mx-auto lg:mx-0">
+              Create stunning web applications with modern tools and seamless workflows. 
+              Our platform helps you bring your ideas to life with speed and precision.
+            </p>
+            
+            {/* Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start pt-4">
+              <button className="px-8 py-3 rounded-full bg-indigo-600 text-white font-semibold shadow-lg hover:bg-indigo-700 transition-all duration-200 transform hover:scale-105">
+                Get Started →
+              </button>
+              <button className="px-8 py-3 rounded-full border-2 border-gray-300 text-gray-700 font-semibold hover:bg-gray-50 transition-all duration-200">
+                Learn More
+              </button>
+            </div>
+          </div>
+
+          {/* Right Section - Image */}
+          <div className="flex-1 flex justify-center lg:justify-end">
+            <div className="relative w-full max-w-md lg:max-w-lg">
+              <div className="absolute inset-0 bg-gradient-to-tr from-indigo-100 to-purple-100 rounded-2xl blur-2xl opacity-60 -z-10"></div>
+              <div className="relative bg-white rounded-2xl shadow-2xl overflow-hidden border border-gray-100">
+                <div className="aspect-[4/3] relative">
+                  {/* Replace the image source with your own image URL */}
+                  <Image
+                    src="https://images.unsplash.com/photo-1551434678-e076c2239a9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    alt="Hero Image"
+                    fill
+                    className="object-cover"
+                    priority
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
