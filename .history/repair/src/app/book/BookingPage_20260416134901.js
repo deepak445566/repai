@@ -50,7 +50,7 @@ export default function BookingPage() {
 *Thank you for booking!*`;
     
     // WhatsApp number
-    const phoneNumber = '919760075738';
+    const phoneNumber = '+919760075738';
     
     // Create WhatsApp link
     const whatsappLink = `https://wa.me/${phoneNumber}?text=${message}`;

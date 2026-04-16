@@ -15,7 +15,7 @@ export default function Navbar() {
   };
 
   const handleCallClick = () => {
-    window.location.href = 'tel:+919760075738';
+    window.location.href = 'tel:9760075738';
   };
 
   const navLinks = [
