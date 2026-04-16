@@ -37,12 +37,12 @@ export default function HeroPage() {
               <div className="absolute inset-0 opacity-60 -z-10"></div>
               <div className="relative overflow-hidden">
                 {/* Size control - Apni hisaab se change karo */}
-                <div className="relative w-[300px] h-[400px] md:w-[350px] md:h-[400px] lg:w-[450px] lg:h-[500px]  mx-auto ">
+                <div className="relative w-[350px] h-[400px] md:w-[400px] md:h-[400px] lg:w-[550px] lg:h-[550px] mx-auto overflorounded-t-full ">
                   <Image
                     src="/images/image1.png"
                     alt="Hero Image"
                     fill
-                    className="object-contain p-4 mt-8  bg-blue-500 rounded-t-full"
+                    className="object-contain p-4 bg-blue-300 rounded-t-full "
                     priority
                   />
                 </div>

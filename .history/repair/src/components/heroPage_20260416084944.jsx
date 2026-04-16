@@ -42,7 +42,7 @@ export default function HeroPage() {
                     src="/images/image1.png"
                     alt="Hero Image"
                     fill
-                    className="object-contain p-4 mt-8  bg-blue-500 rounded-t-full"
+                    className="object-contain p-4 mt-8  bg-blue-700 rounded-t-full"
                     priority
                   />
                 </div>

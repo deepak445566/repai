@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HeroPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 flex items-center justify-center px-4 lg:px-12 py-12">
+    <div className="min-h-screen bg-gradient-to-br from-white to-gray-50 flex items-center justify-center px-4  py-12">
       <div className="max-w-7xl mx-auto w-full">
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-10">
           
@@ -37,12 +37,12 @@ export default function HeroPage() {
               <div className="absolute inset-0 opacity-60 -z-10"></div>
               <div className="relative overflow-hidden">
                 {/* Size control - Apni hisaab se change karo */}
-                <div className="relative w-[300px] h-[400px] md:w-[350px] md:h-[400px] lg:w-[450px] lg:h-[500px]  mx-auto ">
+                <div className="relative w-[350px] h-[400px] md:w-[400px] md:h-[400px] lg:w-[550px] lg:h-[550px] mx-auto bg-blue-300 rounded-t-full ">
                   <Image
                     src="/images/image1.png"
                     alt="Hero Image"
                     fill
-                    className="object-contain p-4 mt-8  bg-blue-500 rounded-t-full"
+                    className="object-contain p-4 bg-blue-300 rounded-t-full "
                     priority
                   />
                 </div>
