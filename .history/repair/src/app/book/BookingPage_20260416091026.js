@@ -10,12 +10,12 @@ export default function BookingPage() {
   
   // Dynamic images mapping for each service
   const serviceImages = {
-    'Ac Repair': '/images/ac1.jpeg',
+    'Ac Repair': '/images/ac1.jpg',
     'Water Purifier': '/images/water.jpg',
     'Washing Machine': '/images/wash.jpg',
     'Refrigerator': '/images/refri.jpg',
-    'Chimney Service': '/images/chimney2.webp',
-    'Gas Stove & Hob Repair': '/images/gas1.jpg',
+    'Chimney Service': '/images/chimney.jpg',
+    'Gas Stove & Hob Repair': '/images/gas.jpg',
     'Gas Pipeline': '/images/pipe.jpg',
     'Plumber': '/images/plumber.jpg',
     'Carpenter': '/images/car.jpg',

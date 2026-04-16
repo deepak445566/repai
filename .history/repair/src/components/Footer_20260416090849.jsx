@@ -45,7 +45,7 @@ export default function Footer() {
             {/* Column 1 - Company Info */}
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-               <img src='/images/logo.png' className='w-60 lg:w-70 bg-white rounded-3xl'/>
+               <img src='/images/logo.png' className='w-70 bg-white'/>
               </div>
               <p className="text-gray-300 text-sm leading-relaxed">
                 Your trusted partner for all home appliance repairs and maintenance. Professional, reliable, and affordable service at your doorstep.
@@ -134,7 +134,7 @@ export default function Footer() {
       <svg className="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
       </svg>
-      <span>+91 9760075738 || 7895315929 </span>
+      <span>+91 9760075738</span>
     </div>
     <div className="flex items-center gap-3 text-gray-300">
       <svg className="w-5 h-5 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">

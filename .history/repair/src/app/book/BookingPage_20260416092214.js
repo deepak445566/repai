@@ -14,7 +14,7 @@ export default function BookingPage() {
     'Water Purifier': '/images/water.jpg',
     'Washing Machine': '/images/wash.jpg',
     'Refrigerator': '/images/refri.jpg',
-    'Chimney Service': '/images/chimney2.webp',
+    'Chimney Service': '/images/chimney2.jpg',
     'Gas Stove & Hob Repair': '/images/gas1.jpg',
     'Gas Pipeline': '/images/pipe.jpg',
     'Plumber': '/images/plumber.jpg',
