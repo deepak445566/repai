@@ -1,4 +1,4 @@
-
+import AboutUs from '@/components/About'
 import HeroPage from '@/components/heroPage'
 import SimpleGallery from '@/components/image'
 import ServicesPage from '@/components/Service'

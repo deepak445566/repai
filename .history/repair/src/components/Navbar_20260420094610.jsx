@@ -132,7 +132,7 @@ export default function Navbar() {
             onClick={handleWhatsAppClick}
             className="flex flex-col items-center gap-1 text-gray-600 hover:text-green-500 transition-colors"
           >
-           <img src='/images/what.svg' className='h-6 w-6'/>
+           <img src='/images/what.svg'
             <span className="text-xs font-medium">WhatsApp</span>
           </button>
 
